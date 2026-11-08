@@ -45,22 +45,22 @@ OCR support allows the application to extract text from scanned PDF documents an
 ### Main Application
 The main interface provides access to all three AI-powered career assistance tools.
 
-![Main Application](Screenshots/main-page.png)
+![Main Application](Screenshots/Main-Page.png)
 
 ### AI Resume Enhancer
 Analyzes resumes against job descriptions and provides personalized improvement suggestions.
 
-![Resume Enhancer](Screenshots/resume-enhancer.png)
+![Resume Enhancer](Screenshots/Resume Enhancer.png)
 
 ### Cover Letter Generator
 Generates personalized cover letters using candidate information and job requirements.
 
-![Cover Letter Generator](Screenshots/cover-letter-generator.png)
+![Cover Letter Generator](Screenshots/CV generator.png)
 
 ### AI Career Advisor
 Provides skill gap analysis, career recommendations, learning roadmaps, and interview preparation guidance.
 
-![Career Advisor](Screenshots/career-advisor.png)
+![Career Advisor](Screenshots/Career advicer.png)
 
 ## 🛠️ Technology Stack
 
