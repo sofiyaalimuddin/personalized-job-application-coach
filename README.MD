@@ -7,6 +7,7 @@ Built with Python, Gradio, and Google's Gemini API, this application analyzes re
 ## 🚀 Features
 
 ### 1. AI Resume Enhancer
+
 - Analyzes resumes against a target job description.
 - Identifies matching skills and missing or underrepresented skills.
 - Suggests improvements to make resume content more relevant.
@@ -15,12 +16,14 @@ Built with Python, Gradio, and Google's Gemini API, this application analyzes re
 - Avoids inventing qualifications, skills, or professional achievements.
 
 ### 2. Personalized Cover Letter Generator
+
 - Generates customized cover letters based on the candidate's resume and job description.
 - Incorporates the company name and target job title.
 - Highlights relevant skills, projects, and experience.
 - Produces professional, concise, and role-specific content.
 
 ### 3. AI Career Advisor
+
 - Evaluates the candidate's profile against a job description.
 - Identifies skill gaps and areas for improvement.
 - Recommends relevant career development opportunities.
@@ -29,7 +32,8 @@ Built with Python, Gradio, and Google's Gemini API, this application analyzes re
 - Suggests practical job application strategies.
 
 ### 4. Multiple Resume File Formats
-Supports different resume formats:
+
+Supports multiple resume formats:
 
 | Format | Processing Method |
 |---|---|
@@ -38,29 +42,33 @@ Supports different resume formats:
 | DOCX | Python-docx |
 | TXT | Python file handling |
 
-OCR support allows the application to extract text from scanned PDF documents and image-based resumes.
+OCR support allows the application to extract text from scanned and image-based PDF resumes.
 
 ## 📸 Application Screenshots
 
 ### Main Application
+
 The main interface provides access to all three AI-powered career assistance tools.
 
-![Main Application](Screenshots/Main-Page.png)
+![Main Application](Screenshots/Main%20Page.png)
 
 ### AI Resume Enhancer
+
 Analyzes resumes against job descriptions and provides personalized improvement suggestions.
 
-![Resume Enhancer](Screenshots/Resume Enhancer.png)
+![Resume Enhancer](Screenshots/Resume%20Enhancer.png)
 
 ### Cover Letter Generator
+
 Generates personalized cover letters using candidate information and job requirements.
 
-![Cover Letter Generator](Screenshots/CV generator.png)
+![Cover Letter Generator](Screenshots/CV%20generator.png)
 
 ### AI Career Advisor
+
 Provides skill gap analysis, career recommendations, learning roadmaps, and interview preparation guidance.
 
-![Career Advisor](Screenshots/Career advicer.png)
+![Career Advisor](Screenshots/Career%20advicer.png)
 
 ## 🛠️ Technology Stack
 
@@ -123,10 +131,13 @@ Gradio Interface
 ## 📂 Project Structure
 
 ```text
-Personalized-Job-Application-Coach/
+personalized-job-application-coach/
 │
-├── app.py
-├── config.py
+├── Screenshots/
+│   ├── CV generator.png
+│   ├── Career advicer.png
+│   ├── Main Page.png
+│   └── Resume Enhancer.png
 │
 ├── modules/
 │   ├── __init__.py
@@ -138,10 +149,12 @@ Personalized-Job-Application-Coach/
 │   ├── __init__.py
 │   └── document_parser.py
 │
+├── app.py
+├── config.py
 ├── .env.example
 ├── .gitignore
 ├── requirements.txt
-└── README.md
+└── README.MD
 ```
 
 ## ⚙️ Installation and Setup
@@ -149,8 +162,9 @@ Personalized-Job-Application-Coach/
 ### 1. Clone the Repository
 
 ```bash
-git clone <your-repository-url>
-cd Personalized-Job-Application-Coach
+git clone https://github.com/sofiyaalimuddin/personalized-job-application-coach.git
+
+cd personalized-job-application-coach
 ```
 
 ### 2. Create a Virtual Environment
@@ -159,14 +173,16 @@ cd Personalized-Job-Application-Coach
 python -m venv .venv
 ```
 
-Activate it:
+Activate the virtual environment.
 
 **Windows:**
+
 ```powershell
 .venv\Scripts\activate
 ```
 
 **Linux/macOS:**
+
 ```bash
 source .venv/bin/activate
 ```
@@ -188,7 +204,7 @@ GEMINI_API_KEY=your_gemini_api_key
 TESSERACT_CMD=C:\Program Files\Tesseract-OCR\tesseract.exe
 ```
 
-Get your Gemini API key through Google AI Studio.
+Obtain your Gemini API key through Google AI Studio.
 
 ### 5. Install Tesseract OCR
 
@@ -196,7 +212,7 @@ Tesseract is required for extracting text from scanned or image-based PDF resume
 
 Install Tesseract OCR separately on your system.
 
-The Python package `pytesseract` acts as an interface to the Tesseract OCR engine; installing the Python package alone does not install the OCR application.
+The Python package `pytesseract` acts as an interface to the Tesseract OCR engine. Installing the Python package alone does not install the OCR application.
 
 If Tesseract is installed in a different location, update `TESSERACT_CMD` in your `.env` file accordingly.
 
@@ -226,6 +242,8 @@ It combines document processing, prompt engineering, LLM integration, and intera
 
 BCA Graduate | Python | AI & Automation
 
-GitHub: https://github.com/sofiyaalimuddin
+GitHub: [sofiyaalimuddin](https://github.com/sofiyaalimuddin)
 
 ---
+
+*Developed as a practical AI application project as part of the IBM AI Developer learning journey.*
